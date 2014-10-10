@@ -8,6 +8,7 @@ python:
 services:
   - rethinkdb
 
+
 install:
   - pip install -r requirements.txt
 
@@ -16,6 +17,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   - python initialize.py
+
 
 script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
