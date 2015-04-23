@@ -28,3 +28,5 @@ after_script:
   - cp README.md ./shippable
   
 archive: true
+
+cache: true
