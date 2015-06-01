@@ -7,6 +7,7 @@ python:
 # RethinkDB binds to 127.0.0.1 by default
 services:
   - rethinkdb
+  
 env:
   - secure: KUv3oUyDiSu+t1q6ifD7EoxMJyZ1KF91CWbaq8r0G7MFblOf09VTdcI9i3yGpqRPY1FrPvzWUX5q8E7Cxy+DpXi/npA+9X/JdeTCCZ69PtHuDO/pBdk9G5K6KjDAO5p1v/kGHhbYWakoLodePb4By37rWwfj3d4qU8xIocietBrxa27yod2RwpdRKrIZhjsArwH932F88M3ubnfYxufvaE7uaAfshglSgsxd5du56omATPkqYSlWGcmaGCRLH9igG2AiRLT3OPLn2Atu15xy7oxRSrhn8jFDu3FM2R2kqvpNYKL8wr2C12rPLNjVuCWBbI/DJ2AZK374nKFrm2zwDw==
 
