@@ -23,7 +23,6 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
-notifications: 
-   email: false
+
 #cache: true
 build_image: shippable/minv2
